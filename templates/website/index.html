@@ -1,0 +1,315 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAMFA Technologies</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text">SAMFA Technologies</span><span class="logo-dot">.</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="tel:+923147555883" class="nav-phone">
+                <i class="fas fa-phone"></i> (+92) 314 7555 883
+            </a>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <div class="hero-badge">Software Company</div>
+            <h1 class="hero-title">Welcome to <span class="gradient-text">SAMFA Technologies</span></h1>
+            <p class="hero-desc">Our team of experts is ready to bring your ideas to life. Whether you need an Android app developer, an iOS app expert, Stunning Website, a UX/UI Figma designer, or a creative graphic genius, we've got the skills and passion to deliver exceptional results.</p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn btn-primary">Get Started</a>
+                <a href="https://samfatech.com/" target="_blank" class="btn btn-outline">
+                    <i class="fas fa-play"></i> Watch Intro
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-num">150+</span>
+                    <span class="stat-label">Satisfied Clients</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-num">85%</span>
+                    <span class="stat-label">Sales Growth</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-num">17+</span>
+                    <span class="stat-label">Brands Joined</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-social">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section class="why-us" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Why Choose Us</span>
+                <h2>Choose us as your preferred <span class="gradient-text">software partner</span></h2>
+                <p>For exceptional Android, iOS, UI/UX, and graphics solutions that elevate your brand and drive lasting business success.</p>
+            </div>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-clock"></i></div>
+                    <h3>Save Your Time</h3>
+                    <p>Save Your Time with Our Holistic Software Solutions</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-tag"></i></div>
+                    <h3>Affordable Price</h3>
+                    <p>Discover exceptional software services at unbeatable prices. Quality and innovation accessible to all businesses.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-chess"></i></div>
+                    <h3>Best Strategy</h3>
+                    <p>A harmonious fusion of creativity, data-driven insights, and seamless execution to drive lasting success.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Services</span>
+                <h2>We Provide The <span class="gradient-text">Best Services</span> For You</h2>
+                <p>Empowering businesses with cutting-edge software solutions tailored to their needs.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fab fa-android"></i></div>
+                    <h3>Mobile App Development</h3>
+                    <p>Android & iOS apps built with modern technologies</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-globe"></i></div>
+                    <h3>Website Development</h3>
+                    <p>Stunning, responsive websites for your business</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-pen-nib"></i></div>
+                    <h3>UI/UX Design</h3>
+                    <p>Beautiful Figma designs that users love</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-palette"></i></div>
+                    <h3>Graphics Designing</h3>
+                    <p>Creative graphics that make your brand stand out</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-video"></i></div>
+                    <h3>Video Editing</h3>
+                    <p>Professional video editing for all platforms</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="achievements">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Numbers</span>
+                <h2>Some Numbers Of Our <span class="gradient-text">Achievement</span></h2>
+                <p>Our software development website boasts a trailblazing track record of innovation and excellence.</p>
+            </div>
+            <div class="achieve-grid">
+                <div class="achieve-card">
+                    <span class="achieve-num" data-target="150">0</span><span class="achieve-plus">+</span>
+                    <p>Satisfied Clients</p>
+                </div>
+                <div class="achieve-card">
+                    <span class="achieve-num" data-target="200">0</span><span class="achieve-plus">+</span>
+                    <p>Projects</p>
+                </div>
+                <div class="achieve-card">
+                    <span class="achieve-num" data-target="17">0</span><span class="achieve-plus">+</span>
+                    <p>Brands Joined</p>
+                </div>
+                <div class="achieve-card">
+                    <span class="achieve-num" data-target="20">0</span><span class="achieve-plus">+</span>
+                    <p>Team Members</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CLIENTS SLIDER -->
+    <section class="clients" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Clients</span>
+                <h2>Brands That <span class="gradient-text">Trust Us</span></h2>
+            </div>
+            <div class="slider-wrapper">
+                <div class="slider-track">
+                    <span>keepform</span><span>WhitDeals</span><span>PRIX MARKET</span>
+                    <span>Prouman</span><span>Crypto Guru</span><span>East Resto</span>
+                    <span>Popyan</span><span>Pubfluance</span><span>Ridealong</span>
+                    <span>kazaya bids</span><span>1000 skills</span><span>Heartland</span>
+                    <span>DEFI</span><span>SERO</span><span>Boss Network</span>
+                    <!-- duplicate for infinite scroll -->
+                    <span>keepform</span><span>WhitDeals</span><span>PRIX MARKET</span>
+                    <span>Prouman</span><span>Crypto Guru</span><span>East Resto</span>
+                    <span>Popyan</span><span>Pubfluance</span><span>Ridealong</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIAL -->
+    <section class="testimonial" id="blog">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Testimonials</span>
+                <h2>What Clients Say About <span class="gradient-text">SAMFA Technologies</span></h2>
+            </div>
+            <div class="testimonial-card">
+                <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                <p class="testimonial-text">Hired SAMFA Technologies To Build Version 1 Of My App, For My Startup. Speaking With SAMFA Teams For The First Time Immediately Showed Me What Kind Of Human He Is. The Way He Communicates Is So Efficient That I Now Feel Like I Actually Understand How Apps Work. SAMFA Technologies Work Ethic, Combined With His Communication Skills Saved My Concept On More Than One Occasion. Choose SAMFA Technologies. Trust Me.</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">SM</div>
+                    <div>
+                        <strong>Sam Mars</strong>
+                        <span>Founder & CEO Of Pubfluence</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contact Us</span>
+                <h2>Get In <span class="gradient-text">Touch</span></h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Layyah, Pakistan</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:contact@samfatech.com">contact@samfatech.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+923147555883">(+92) 314 7555 883</a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="email" placeholder="Your Email Address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe <i class="fas fa-arrow-right"></i></button>
+                    <p class="form-note">Get the latest news & updates</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <span class="logo-text">SAMFA</span><span class="logo-dot">.</span>
+                <p>Empowering businesses with cutting-edge software solutions.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-x-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Other Pages</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Our Services</h4>
+                <ul>
+                    <li><a href="#">Mobile App Development</a></li>
+                    <li><a href="#">Website Development</a></li>
+                    <li><a href="#">UI/UX Design</a></li>
+                    <li><a href="#">Graphics Designing</a></li>
+                    <li><a href="#">Video Editing</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>All rights reserved By <strong>SAMFA Technologies</strong></p>
+        </div>
+    </footer>
+
+    <script>
+        // Hamburger menu
+        document.getElementById('hamburger').addEventListener('click', () => {
+            document.querySelector('.nav-links').classList.toggle('open');
+        });
+
+        // Counter animation
+        const counters = document.querySelectorAll('.achieve-num');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const target = +entry.target.getAttribute('data-target');
+                    let count = 0;
+                    const step = Math.ceil(target / 60);
+                    const timer = setInterval(() => {
+                        count += step;
+                        if (count >= target) { count = target; clearInterval(timer); }
+                        entry.target.textContent = count;
+                    }, 30);
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+        counters.forEach(c => observer.observe(c));
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            document.querySelector('.navbar').classList.toggle('scrolled', window.scrollY > 50);
+        });
+    </script>
+</body>
+</html>
